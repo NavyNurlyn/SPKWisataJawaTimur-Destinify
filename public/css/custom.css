@@ -1,0 +1,227 @@
+/* ===== DESTINIFY COLOR PALETTE ===== */
+:root {
+    --d-primary: #c59fff; /* Purple */
+    --d-secondary: #88cdff; /* Sky Blue */
+    --d-accent: #ffa3f9; /* Pink */
+    --d-bg: #cedbff; /* Soft background */
+    --d-contrast: #010101; /* Dark text */
+    --d-success: #00c48c; /* Green for ALAM */
+    --d-warning: #ffe3aa; /* Budaya */
+    --d-danger: #ffa7a7;
+    --d-danger2: rgb(231, 0, 0) 7;
+}
+
+/* Card & Table */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: linear-gradient(90deg, var(--d-primary), var(--d-secondary));
+}
+
+/* Base style untuk header tabel kustom */
+.table-header-base {
+    color: var(--d-contrast, #000);
+    border-bottom: 2px solid var(--d-contrast, #000);
+}
+
+/* Header Warna Primary (Purple) */
+.table-header-primary th {
+    background-color: var(--d-primary) !important;
+    color: var(--d-contrast, #000);
+}
+
+/* Header Warna Secondary (Sky Blue) */
+.table-header-secondary th {
+    background-color: var(--d-secondary) !important;
+    color: var(--d-contrast, #000);
+}
+
+/* Header Warna Accent (Pink) */
+.table-header-accent th {
+    background-color: var(--d-accent) !important;
+    color: var(--d-contrast, #000);
+}
+
+.cell-d-primary {
+    background-color: #ddc3ff !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+.cell-d-secondary {
+    background-color: var(--d-secondary) !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+.cell-d-accent {
+    background-color: #ffc3f6 !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+.cell-d-1 {
+    background-color: #beabd7 !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+.cell-d-2 {
+    background-color: #cad9ff !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+.cell-d-3 {
+    background-color: #ffddfa !important;
+    color: var(--d-contrast, #000) !important;
+}
+
+/* Button primary */
+.btn-primary {
+    background: linear-gradient(90deg, var(--d-primary), var(--d-secondary));
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.85;
+}
+
+.btn-1 {
+    background: var(--d-primary);
+    color: black;
+    border: none;
+}
+
+.btn-1:hover {
+    background: #7a52b5;
+    color: #ffffff;
+}
+
+.btn-2 {
+    background: var(--d-secondary);
+    color: black;
+    border: none;
+}
+
+.btn-2:hover {
+    background: #42b0ff;
+    color: #ffffff;
+}
+
+.btn-3 {
+    background: var(--d-accent);
+    color: black;
+    border: none;
+}
+
+.btn-3:hover {
+    background: #d340c9;
+    color: #ffffff;
+}
+
+/* Form */
+.form-control,
+.form-select {
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--d-secondary);
+    box-shadow: 0 0 0 0.2rem rgba(0, 149, 255, 0.25);
+}
+
+/* Badge Custom */
+.badge-primary {
+    background: var(--d-primary) !important;
+    color: #000 !important;
+}
+
+.badge-secondary {
+    background: var(--d-secondary) !important;
+    color: #000 !important;
+}
+
+.badge-accent {
+    background: var(--d-accent) !important;
+    color: #000 !important;
+}
+
+/* Alert/Background menggunakan warna primer */
+.alert-d-primary {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-primary);
+    --bs-alert-border-color: var(--d-primary);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+/* Alert/Background menggunakan warna sekunder */
+.alert-d-secondary {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-secondary);
+    --bs-alert-border-color: var(--d-secondary);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+/* Alert/Background menggunakan warna aksen */
+.alert-d-accent {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-accent);
+    --bs-alert-border-color: var(--d-accent);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+.alert-d-success {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-bg);
+    --bs-alert-border-color: var(--d-bg);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+.alert-d-info {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: #c9e9ff;
+    --bs-alert-border-color: #c9e9ff;
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+.alert-d-warning {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-warning);
+    --bs-alert-border-color: var(--d-warning);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+.alert-d-danger {
+    --bs-alert-color: var(--d-contrast);
+    --bs-alert-bg: var(--d-danger);
+    --bs-alert-border-color: var(--d-danger);
+    --bs-alert-link-color: var(--d-contrast);
+}
+
+/* Utility Background Color */
+.bg-d-primary {
+    background-color: var(--d-primary) !important;
+}
+
+.bg-d-secondary {
+    background-color: var(--d-secondary) !important;
+}
+
+.bg-d-accent {
+    background-color: var(--d-accent) !important;
+}
+
+/* Utility Text Color */
+.text-d-primary {
+    color: var(--d-primary) !important;
+}
+
+.text-d-secondary {
+    color: var(--d-secondary) !important;
+}
+
+.text-d-accent {
+    color: var(--d-accent) !important;
+}
