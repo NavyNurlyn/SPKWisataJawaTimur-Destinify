@@ -279,10 +279,6 @@ Jika Anda ingin berkontribusi:
 
 Distributed under the MIT License.
 
-## Kontak
-
-[@FathimatusZN](https://github.com/FathimatusZN)
-
 ---
 
 **Destinify** - Temukan Destinasi Wisata Terbaik di Jawa Timur 🌴
