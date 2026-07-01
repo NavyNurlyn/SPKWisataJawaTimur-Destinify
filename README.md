@@ -2,6 +2,9 @@
 
 Sistem Rekomendasi Destinasi Wisata menggunakan metode AHP (Analytical Hierarchy Process) berbasis Laravel.
 
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/o_Eug2rMYrE/hqdefault.jpg)](https://www.youtube.com/watch?v=o_Eug2rMYrE)
+
 ## Prasyarat
 
 Pastikan sistem Anda sudah terinstall:
